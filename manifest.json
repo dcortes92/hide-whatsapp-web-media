@@ -14,9 +14,9 @@
     ],
     
     "content_scripts": [
-    {
-      "matches": ["https://web.whatsapp.com/"], //where your script should be injected
-      "css": ["main.css"] //the name of the file to be injected
-    }
-  ]
+        {
+            "matches": ["https://web.whatsapp.com/"], 
+            "css": ["main.css"]
+        }
+    ]
 }
