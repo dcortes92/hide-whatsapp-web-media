@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Hide Whatsapp Web Media",
+    "description": "This extension hides the media received in the Whatsapp Web page.",
+    "version": "1.0",
+    
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    
+    "permissions": [
+        "activeTab",
+        "https://ajax.googleapis.com/"
+    ],
+    
+    "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/"], //where your script should be injected
+      "css": ["main.css"] //the name of the file to be injected
+    }
+  ]
+}

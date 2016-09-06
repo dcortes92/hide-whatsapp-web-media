@@ -1,0 +1,7 @@
+.image-thumb {
+    opacity: 0;
+}
+
+.image-thumb:hover {
+    opacity: 0.1;
+}
