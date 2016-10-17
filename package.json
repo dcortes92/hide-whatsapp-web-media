@@ -1,0 +1,26 @@
+{
+  "name": "whatsapp-media",
+  "version": "1.0.0",
+  "description": "Hide media preview in whatsapp web.",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcortes92/hide-whatsapp-web-media.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "media",
+    "web",
+    "chrome",
+    "hide"
+  ],
+  "author": "Daniel Cortes <dcortes1892@gmail.com> (http://dcortes92.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcortes92/hide-whatsapp-web-media/issues"
+  },
+  "homepage": "https://github.com/dcortes92/hide-whatsapp-web-media#readme"
+}
